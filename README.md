@@ -1,2 +1,1 @@
-# Getting Started with Create React App
-# monthly inflation rate chart with reac and chartjs
+# monthly inflation rate chart with react and chartjs
