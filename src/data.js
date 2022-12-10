@@ -1,4 +1,4 @@
-﻿export const data = {
+export const data = {
 
     "month": ["Jan", "Feb", "March", "Apr", "May", "June", "July", "Aug", "Sep", "Oct", "Nov", "Dec"],
 
