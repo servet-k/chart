@@ -2,18 +2,20 @@ import './App.css';
 import "./index.css"
 import { data } from "./data"
 import LineChart from './components/LineChart';
+import AnnualChart from './components/AnnualChart';
 import React from 'react';
 
 function App() {
-  console.log(data)
+  
+  // eslint-disable-next-line
   const [infData, setInfData] = React.useState(
     {
       labels: data.month.map(month => month),
       datasets: [{
         label: "2019",
         data: [...data[2019]],
-          borderColor: ["green"],
-          backgroundColor: ["green"]
+        borderColor: ["green"],
+        backgroundColor: ["green"]
       },
       {
         label: "2020",
@@ -36,15 +38,15 @@ function App() {
 
       }
       ]
-      
+
 
     }
   )
 
   return (
     <div className="App">
-      <LineChart infData={infData}
-      />
+      <LineChart infData={infData}  />
+      <AnnualChart data={infData} />
     </div>
   );
 }
