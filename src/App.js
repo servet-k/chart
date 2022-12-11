@@ -46,7 +46,7 @@ function App() {
   return (
     <div className="App">
       <LineChart infData={infData}  />
-      <AnnualChart data={infData} />
+      <AnnualChart  />
     </div>
   );
 }
