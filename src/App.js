@@ -1,4 +1,4 @@
-import './App.css';
+//import './App.css';
 import "./index.css"
 import { data } from "./data"
 import LineChart from './components/LineChart';
