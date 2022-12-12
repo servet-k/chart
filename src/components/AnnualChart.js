@@ -82,7 +82,9 @@ function AnnualChart() {
           legend:{
             display:true
           }
-        }
+          
+        },
+        
       }
     }/> 
     </div>

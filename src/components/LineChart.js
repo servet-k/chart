@@ -18,8 +18,10 @@ const LineChart=({infData})=>{
                 },
                 legend:{
                   display:true
-                }
+                },
+                
               }
+              
             }
           }/>
         </div>
