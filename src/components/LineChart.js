@@ -1,5 +1,6 @@
 import {Line} from "react-chartjs-2"
 //import  {Chart as ChartJS,defaults}  from "chart.js"
+// eslint-disable-next-line
 import Chart from 'chart.js/auto';
 
 const LineChart=({infData})=>{
