@@ -30,7 +30,7 @@ function AnnualChart() {
   }
   
   let year2022 = [];
-  for (let i = 25; i <= 35; i++) {
+  for (let i = 25; i <= 36; i++) {
 
     let arr = monthDataArr.slice(i, i + 12);
     
