@@ -3,10 +3,12 @@ import "./index.css"
 import { data } from "./data"
 import LineChart from './components/LineChart';
 import AnnualChart from './components/AnnualChart';
+
 import React from 'react';
 
+
 function App() {
-  
+
   // eslint-disable-next-line
   const [infData, setInfData] = React.useState(
     {
@@ -36,17 +38,34 @@ function App() {
         borderColor: ["fuchsia"],
         backgroundColor: ["fuchsia"]
 
+      },
+      {
+        label: "2023",
+        data: [...data[2023]],
+        borderColor: ["red"],
+        backgroundColor: ["red"]
+
+      },
+      {
+        label: "2024",
+        data: [...data[2024]],
+        borderColor: ["grape"],
+        backgroundColor: ["grape"]
+      },
+      {
+        label: "2025",
+        data: [...data[2025]],
+        borderColor: ["purple"],
+        backgroundColor: ["purple"]
       }
       ]
-
-
     }
-  )
-
+  );
   return (
     <div className="App">
-      <LineChart infData={infData}  />
-      <AnnualChart  />
+      <LineChart infData={infData} />
+      <AnnualChart />
+      
     </div>
   );
 }

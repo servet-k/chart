@@ -13,7 +13,7 @@ const LineChart=({infData})=>{
               plugins:{
                 title:{
                   display:true,
-                  text:"Aylık TÜFE oranları 2019-2022",
+                  text:"Aylık TÜFE oranları 2019-2025",
                   font: {size:"20px"}
                 },
                 legend:{
