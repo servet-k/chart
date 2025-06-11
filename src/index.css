@@ -26,24 +26,23 @@ code {
   font-weight: bold;
 }
 
-/*@media screen  and (min-width: 321px) and (max-width:960px) {
-   .graph {
-      height: auto;
-      width: auto;
-   }
-}*/
 
 @media screen and (max-width: 750px) {
   .graph {
    width: 100%;
    margin-left: inherit;
-   height: 50vh; /* add this line */
+   height: 100vh; 
    
    }
     .graph:nth-child(1) {
-    margin-bottom: 20px; /* add some margin between the charts */
+    margin-bottom: 20px; 
   }
  }
+
+
+
+
+
  .graph > div > canvas > text {
   font-weight: bold;
 }
