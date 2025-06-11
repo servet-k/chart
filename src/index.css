@@ -37,9 +37,12 @@ code {
   .graph {
    width: 100%;
    margin-left: inherit;
-   height: auto; /* add this line */
-   min-height: 400px; /* add this line */
+   height: 50vh; /* add this line */
+   
    }
+    .graph:nth-child(1) {
+    margin-bottom: 20px; /* add some margin between the charts */
+  }
  }
  .graph > div > canvas > text {
   font-weight: bold;
