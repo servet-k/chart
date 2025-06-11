@@ -37,6 +37,10 @@ code {
     .graph:nth-child(1) {
     margin-bottom: 20px; 
   }
+  canvas {
+    width: 100% !important;
+    height: 100% !important;
+  }
  }
 
 
