@@ -1,8 +1,8 @@
 //import './App.css';
 import "./index.css"
 import { data } from "./data"
-import LineChart from './components/LineChart';
-import AnnualChart from './components/AnnualChart';
+import LineChart from './components/LineChart'
+import AnnualChart from './components/AnnualChart'
 
 import React from 'react';
 

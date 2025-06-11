@@ -38,7 +38,7 @@ code {
    width: 100%;
    margin-left: inherit;
    height: auto; /* add this line */
-   min-height: 200px; /* add this line */
+   min-height: 400px; /* add this line */
    }
  }
  .graph > div > canvas > text {
