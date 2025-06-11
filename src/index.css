@@ -36,7 +36,10 @@ code {
 @media screen and (max-width: 750px) {
   .graph {
    width: 100%;
-   margin-left: inherit; }
+   margin-left: inherit;
+   height: auto; /* add this line */
+   min-height: 200px; /* add this line */
+   }
  }
  .graph > div > canvas > text {
   font-weight: bold;
