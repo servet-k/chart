@@ -57,7 +57,13 @@ function App() {
         data: [...data[2025]],
         borderColor: ["purple"],
         backgroundColor: ["purple"]
-      }
+      },
+      {
+        label: "2026",
+        data: [...data[2026]],
+        borderColor: ["yellow"],
+        backgroundColor: ["yellow"]
+      },
       ]
     }
   );

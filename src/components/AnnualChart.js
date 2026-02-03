@@ -16,7 +16,7 @@ function AnnualChart() {
     return sum.toFixed(2);
   }
 
-  const monthDataArr = [...data[2019], ...data[2020], ...data[2021], ...data[2022], ...data[2023], ...data[2024],...data[2025]]
+  const monthDataArr = [...data[2019], ...data[2020], ...data[2021], ...data[2022], ...data[2023], ...data[2024],...data[2025],...data[2026]]
   let year2020 = [];
   for (let i = 1; i <= 12; i++) {
     let arr = monthDataArr.slice(i, i + 12);
@@ -59,6 +59,11 @@ function AnnualChart() {
     let arr = (i + 12) <= monthDataArr.length ? monthDataArr.slice(i, i + 12) : null;
     if (arr) { year2025.push(inflation(arr)) }
 
+  }
+  let year2026 = []
+  for (let i = 73; i <= 84; i++) {
+    let arr = (i + 12) <= monthDataArr.length ? monthDataArr.slice(i, i + 12) : null;
+    if (arr) { year2026.push(inflation(arr)) }
   }
   console.log(monthDataArr)
 
@@ -105,7 +110,14 @@ function AnnualChart() {
         borderColor: ["purple"],
         backgroundColor: ["purple"]
 
-      }
+      },
+      {
+        label: "2026",
+        data: year2026,
+        borderColor: ["yellow"],
+        backgroundColor: ["yellow"] 
+
+      },
 
 
 
@@ -123,7 +135,7 @@ function AnnualChart() {
             plugins: {
               title: {
                 display: true,
-                text: "Yıllık TÜFE oranları 2020-2025",
+                text: "Yıllık TÜFE oranları 2020-2026",
                 font: { size: "20px" },
               },
               legend: {
